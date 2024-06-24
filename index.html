@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/295b063b70.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://img.freepik.com/premium-vector/shoes-logo-icon-vector-illustration_304830-469.jpg"
+      type="image/x-icon"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><i class="fas fa-shoe-prints"></i>Shoes</a>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#products">Product</a>
+        <a href="#featured">Featured</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+
+      <form action="" class="search-form">
+        <input
+          type="search"
+          name=""
+          id="search-box"
+          placeholder="search here..."
+        />
+      </form>
+    </header>
+
+    <!-- header section end -->
+
+    <!-- home section start -->
+
+    <section class="home" id="home">
+      <div class="slides-container">
+        <div class="slide active">
+          <div class="content">
+            <span>new winter</span>
+            <h3>shoes collection</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quibusdam, sapiente? Reiciendis.
+            </p>
+            <button class="btn">
+              <span>shop now</span>
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="image">
+            <img src="first.png" alt="" />
+          </div>
+
+          <div class="content">
+            <span>new winter</span>
+            <h3>shoes collection</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quibusdam, sapiente? Reiciendis.
+            </p>
+            <button class="btn">
+              <span>shop now</span>
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="image">
+            <img src="first1.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div id="slide-next" onclick="next()" class="fas fa-angle-right"></div>
+      <div id="slide-prev" onclick="prev()" class="fas fa-angle-left"></div>
+    </section>
+
+    <!-- latest Product start -->
+    <section class="products" id="products">
+      <h1 class="heading"><span>latest</span>product</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="first2.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>nike shoes</h3>
+            <div class="price">$170.00</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(50)</span>
+            </div>
+            <a href="#" class="btn"><i class="far fa-heart"></i></a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="one.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>nike shoes</h3>
+            <div class="price">$170.00</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(50)</span>
+            </div>
+            <a href="#" class="btn"><i class="far fa-heart"></i></a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="one2.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>nike shoes</h3>
+            <div class="price">$170.00</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(50)</span>
+            </div>
+            <a href="#" class="btn"><i class="far fa-heart"></i></a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://5.imimg.com/data5/II/QH/MY-39212168/girl-s-formal-shoes-500x500.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>nike shoes</h3>
+            <div class="price">$170.00</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(50)</span>
+            </div>
+            <a href="#" class="btn"><i class="far fa-heart"></i></a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://kxadmin.metroshoes.com/product/57-4731/550/57-4731M29.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>nike shoes</h3>
+            <div class="price">$170.00</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(50)</span>
+            </div>
+            <a href="#" class="btn"><i class="far fa-heart"></i></a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://rukminim2.flixcart.com/image/450/500/xif0q/shoe/y/n/l/-original-imagvnzf47jpyjwy.jpeg?q=90&crop=true"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>nike shoes</h3>
+            <div class="price">$170.00</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(50)</span>
+            </div>
+            <a href="#" class="btn"><i class="far fa-heart"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner starts -->
+
+    <section class="banner-container">
+      <div class="banner">
+        <img
+          src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/870add6a-ba05-4546-80cc-f0e3d0268848/pegasus-41-road-running-shoes-SKDkNs.png"
+          alt=""
+        />
+        <div class="content">
+          <span>limited offer</span>
+          <h3>upto 40% off</h3>
+          <button class="btn">
+            <span>shop now</span>
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+      <div class="banner">
+        <img
+          src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/85b2c610-003e-4a03-adab-680d3f20010f/air-max-dn-shoes-drXjb8.png"
+          alt=""
+        />
+        <div class="content">
+          <span>limited offer</span>
+          <h3>upto 40% off</h3>
+          <button class="btn">
+            <span>shop now</span>
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- featured starts -->
+
+    <section class="featured" id="featured">
+      <h1 class="heading"><span>featured</span>products</h1>
+
+      <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <span class="discount">-25%</span>
+            <div class="image">
+              <img
+                src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fb5351b2-084c-4ed1-bec9-9f2347128a50/revolution-7-younger-shoes-msfDML.png"
+                alt=""
+              />
+            </div>
+            <div class="content">
+              <h3>nike shoes</h3>
+              <div class="price">$20.00</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <a href="#" class="btn">add to card</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <span class="discount">-25%</span>
+            <div class="image">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI5fwnHxhPZ9mv3-SNDHXkqRe_G4R5C65JsuLkHGx49LBUbBUsJ1ak56QA00cUg0_XlB8&usqp=CAU"
+                alt=""
+              />
+            </div>
+            <div class="content">
+              <h3>nike shoes</h3>
+              <div class="price">$20.00</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <a href="#" class="btn">add to card</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <span class="discount">-25%</span>
+            <div class="image">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSdzBPiig9TS2Do_GalTSaMtamkhgGJ0QSU2X-g7UdHls2s5lDan6OyfMWb0Coq6b3DzF-OaCHO_yO-3OnegOVjtuSNGwsr9I4lUIfIhcTMVj4RWeba3zXG&usqp=CAE"
+                alt=""
+              />
+            </div>
+            <div class="content">
+              <h3>nike shoes</h3>
+              <div class="price">$20.00</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <a href="#" class="btn">add to card</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <span class="discount">-25%</span>
+            <div class="image">
+              <img
+                src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8bdc4ff8-faa5-43e9-8636-58b18f33db54/revolution-7-road-running-shoes-NNc8Ll.png"
+                alt=""
+              />
+            </div>
+            <div class="content">
+              <h3>nike shoes</h3>
+              <div class="price">$20.00</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <a href="#" class="btn">add to card</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <span class="discount">-25%</span>
+            <div class="image">
+              <img
+                src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/57f1259c-6d9b-4c4c-88b5-301d6951dc95/sb-force-58-skate-shoes-MBcZqq.png"
+                alt=""
+              />
+            </div>
+            <div class="content">
+              <h3>nike shoes</h3>
+              <div class="price">$20.00</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <a href="#" class="btn">add to card</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <span class="discount">-25%</span>
+            <div class="image">
+              <img
+                src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8fb34fe2-cc91-4865-9fa6-79b3b26b8ac7/pegasus-41-road-running-shoes-RZm89S.png"
+                alt=""
+              />
+            </div>
+            <div class="content">
+              <h3>nike shoes</h3>
+              <div class="price">$20.00</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <a href="#" class="btn">add to card</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <!-- featured end  -->
+
+    <section class="review" id="review">
+      <h1 class="heading"><span>client's</span>review</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://www.shutterstock.com/image-photo/folded-hands-business-portrait-smiling-260nw-230293954.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>lexxa paul</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
+              inventore mollitia reprehenderit repellendus ex harum.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://www.shutterstock.com/image-photo/smiling-young-middle-eastern-man-260nw-2063524544.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>lexxa paul</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
+              inventore mollitia reprehenderit repellendus ex harum.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://www.shutterstock.com/image-photo/portrait-handsome-caucasian-man-formal-260nw-2142820441.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>lexxa paul</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
+              inventore mollitia reprehenderit repellendus ex harum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- senf gift starts -->
+
+    <section class="send">
+      <div class="container">
+        <div class="content">
+          <h2 class="title">send gift now</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae,
+            voluptatem.
+          </p>
+          <form action="">
+            <input type="text" class="input" placeholder="House Address" />
+            <a href="#" class="btn">send</a>
+          </form>
+        </div>
+        <div class="image">
+          <img src="gift.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact stars -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span>us</h1>
+
+      <div class="row">
+        <div class="image">
+          <img
+            src="https://www.youngspecialties.com/wp-content/uploads/2022/03/Contact-Us-Young-Specialties-500px.jpg"
+            alt=""
+          />
+        </div>
+
+        <form action="">
+          <h3>get in touch</h3>
+          <div class="inputBox">
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your Email" />
+          </div>
+          <div class="inputBox">
+            <input type="number" placeholder="Your Number" />
+            <input type="text" placeholder="Your Subject" />
+          </div>
+          <textarea placeholder="Your Message" cols="30" rows="10"></textarea>
+          <input type="submit" value="send Message" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- footer starts -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>about us</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+            mollitia.
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>our services</h3>
+          <a href="#">pricing</a>
+          <a href="#">discount</a>
+          <a href="#">refund policy</a>
+          <a href="#">shipping mode</a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#">home</a>
+          <a href="#">products</a>
+          <a href="#">featured</a>
+          <a href="#">review</a>
+        </div>
+
+        <div class="box">
+          <h3>social links</h3>
+          <a href="https://www.facebook.com/alok.rajbha/"
+            ><i class="fab fa-facebook"></i>facebook</a
+          >
+          <a href="https://x.com/AlokRajbha32735"
+            ><i class="fab fa-twitter"></i>twitter</a
+          >
+          <a href="https://www.instagram.com/rajbhaalok/"
+            ><i class="fab fa-instagram"></i>instagram</a
+          >
+          <a href="https://www.linkedin.com/in/alok-rajbhar-b60646296/"
+            ><i class="fab fa-linkedin"></i>linkedin</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="credit">&copy;copyright @ 2024 by AlokRAJBHAR</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
